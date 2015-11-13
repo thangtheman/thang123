@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+}
+
+.image {
+  display: block;
+  height: auto;
+  overflow: hidden;
+}
+
+.image-1 {
+  position: absolute;
+  top: 134px;
+  left: 61.8489583333%;
+  z-index: 7;
+  width: 93px;
+}
+
+.image-2 {
+  position: absolute;
+  top: 134px;
+  left: 50%;
+  z-index: 6;
+  width: 155px;
+}
+
+.image-3 {
+  position: absolute;
+  top: 134px;
+  left: 43.1809895833%;
+  z-index: 5;
+  width: 105px;
+}
+
+.image-4 {
+  position: absolute;
+  top: 134px;
+  left: 29.5989583333%;
+  z-index: 4;
+  width: 163px;
+}
+
+.image-5 {
+  position: absolute;
+  top: 134px;
+  left: 22%;
+  z-index: 3;
+  width: 88px;
+}
+
+.image-6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 924px;
+  margin: 0 auto;
+}
+
+.image-7 {
+  position: absolute;
+  top: 134px;
+  left: 72.7434895833%;
+  z-index: 8;
+  width: 78px;
+}
+
+.image-8 {
+  position: relative;
+  float: left;
+  z-index: 2;
+  width: 134px;
+  margin-top: 278px;
+}
+
+.image-9 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 0;
+  width: 935px;
+  margin: -144px 0 0 11.04167%;
+}
