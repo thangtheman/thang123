@@ -1,0 +1,92 @@
+    .sliderwrap {
+        background:#191919;
+        clear: both;
+        padding: 5px;
+		display:none;
+    }
+    .sliderwrap ul li img {
+        width: 100%;
+		display: block;
+		
+    }
+	
+	#sliderThumbReal ul li{
+		opacity:0.5;
+	}
+	
+	#sliderThumbReal ul li.active{
+		opacity:1;
+	}
+	
+    .sliderwrap .desc {
+        color: #fff;
+		padding: 5px;
+    }
+    .bx-controls-direction a.bx-prev {
+        background-position: 0 0;
+        left: 10px;
+		-moz-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+	    -webkit-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+    }
+    .bx-has-controls-direction a {
+        background-repeat: no-repeat;
+        display: block;
+        height: 54px;
+        opacity: 0.3;
+        overflow: hidden;
+        position: absolute;
+        text-indent: -99999px;
+        top: 40%;
+        width: 33px;
+    }
+	
+	.bx-has-controls-direction a:hover{
+		opacity:1;
+	}
+	
+	.bx-controls-direction a.bx-next {
+        right: 10px;
+    }
+    .sliderwrap #sliderBigReal {
+        position:relative;
+    }
+    .sliderwrap #sliderThumbReal .bx-wrapper .bx-has-controls-direction a.bx-next {
+        right: 0;
+    }
+    .sliderwrap #sliderThumbReal .bx-wrapper .bx-has-controls-direction a.bx-prev {
+        left: 0;
+		-moz-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+	    -webkit-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+    }
+    .sliderwrap #sliderThumbReal{
+           position: relative;
+    }
+    .sliderwrap #sliderThumbReal .bx-wrapper {
+       margin: 0 auto;
+       width: 90%;
+    }
+    .sliderwrap #sliderThumbReal .bx-wrapper .bx-has-controls-direction a {
+       box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.3) inset;
+       display: block;
+       height: 100%;
+       overflow: hidden;
+       position: absolute;
+       text-indent: -99999px;
+       top: 0;
+       width: 30px;
+    }
+	
+@media only screen and (min-width: 320px) and (max-width: 500px){	
+		
+	#sliderThumbReal{
+		display:none;
+	}
+	.bx-has-controls-direction a{
+		top:20%;
+	}
+}
+

@@ -1,0 +1,445 @@
+/*
+	Common CSS Styles
+*/
+.view-all-btn{
+	float: right;
+	background: transparent linear-gradient(#F06711, #F37E1D) repeat scroll 0% 0%;
+	color: #FFF;
+	padding: 2px 8px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+.view-all-btn:hover,
+.view-all-btn:focus{
+	color: #FFF;
+	background: #F05500;
+}
+.znewsletter .btnsubmit,
+.znewsletter-new .btnsubmit {
+  padding: 8px 6px;
+  border-radius: 5px;
+  background: #ff9e19;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 0;
+}
+.znewsletter-new .form-wrap span{
+display: inline-block;
+vertical-align: middle;
+margin: 5px 0;
+}
+.znewsletter-new .form-wrap span.label{
+min-width: 120px;
+font-weight: bold;
+}
+.znewsletter-new .form-wrap input{
+border-radius: 3px;
+}
+
+.catheading h3 a{
+	color: #F61500 !important
+}
+
+.catslist{
+	list-style: none !important;;
+	margin: 10px 0 !important;
+	padding: 0 !important;
+}
+.catslist li{
+	margin: 5px  0 !important;
+}
+.catslist a{
+	font-weight: 700;
+	color: #333;
+	font-size: 15px;
+}
+.catslist a:hover{
+	color: #F61500;
+}
+.article-content{
+	font-size: 14px;
+}
+
+
+/*	cuisine grid	*/
+.zl_grid .grid-item{
+	display: inline-block;
+	margin: 1px;
+	width: 33%;
+	vertical-align: top;
+}
+@media screen and (max-width: 400px){
+	.zl_grid .grid-item{
+		width: 49%;
+	}
+}
+.zl_grid .grid-item a{
+	display: block;
+	position: relative;
+	transition: 0.2s ease all;
+}
+.zl_grid .grid-item a:hover{
+	opacity: 0.8;
+}
+.zl_grid .grid-item img{
+	display: block;
+	width: 100%;
+	height: auto;
+	background: #DDD;
+	max-height: 150px;
+}
+.zl_grid .grid-item .title{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 10px 10px 5px 10px;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.75)));
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%);
+	background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%);
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+	box-sizing: border-box;
+}
+/*	end of cuisine grid	*/
+
+
+/*	cuisine list	*/
+.zl_list .list-item{
+	display: inline-block;
+	margin: 5px 0;
+	padding: 5px 0;
+	width: 100%;
+	transition: 0.2s ease all;
+	border-bottom: 1px solid #BBB;
+	transition: 0.2s ease all;
+}
+.zl_list .list-item:hover{
+	border-bottom-color: #F46047;
+}
+.zl_list .list-item .title{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 10px 5px 10px;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.75)));
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%);
+	background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%);
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+	box-sizing: border-box;
+}
+
+.zl_list .link-item{
+	display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    margin: 5px 0;
+}
+.zl_list .list-item .list-thumb{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+}
+.zl_list .list-item .list-links{
+	display: inline-block;
+	vertical-align: top;
+	/*width: 59%;	*/
+	width: 100%;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.zl_list .list-item .list-links a{
+	text-decoration: none;
+	color: inherit;
+}
+.zl_list .list-item .list-links a:hover{
+	color: #F75100;
+}
+
+.zl_list .list-item .list-links .ll-thumb{
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+}
+.zl_list .list-item .list-links .ll-info{
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;	
+	padding-left: 10px;
+}
+.zl_list .list-item .list-links .ll-title{
+	color: inherit;
+	font-weight: bold;
+}
+.zl_list .list-item .list-links .ll-summary{
+	font-size: 12px;
+	color: #555;
+	padding: 5px 0;
+	line-height: 18px;
+}
+.zl_list .list-item .list-links .ll-thumb img,
+.zl_list .list-item .list-thumb img{
+	display: block;
+	width: 100%;
+	height: auto;
+	background: #DDD;
+}
+.zl_list .list-links a.view-all-btn{
+	color: #FFF;
+}
+.zl_list .list-links a.view-all-btn:hover{
+	color: #FFF !important;
+}
+
+.list-item .list-header{
+	border-bottom: 1px solid #DDD;
+	margin: 10px 0 5px 0;
+}
+.list-item .list-header h3{
+	display: inline-block;
+}
+
+@media screen and (max-width: 500px){
+	.zl_list .list-item .list-thumb{
+		display: block;
+		width: 70%;
+		margin: 0 auto 10px auto;
+	}
+	.zl_list .list-item .list-links{
+		width: 100%;
+	}
+	.zl_list .link-item{
+		width: 100%;
+	}
+}
+/*	end of cuisine list	*/
+
+#recipe_finder{
+	border-top: 2px solid #fb4834;
+}
+#top-menu>div>a{
+	padding: 6px 21px;
+}
+
+.widgetlink a {
+    color: inherit;
+    font-size: 13px;
+    padding-bottom: 3px;
+}
+.widgetlink a:hover {
+    color: #f61600;
+}
+.healthaz{
+	padding: 4px 4px 6px 4px;
+}
+
+#et-top-navigation{
+	float: left;
+}
+
+.et-fixed-header #top-menu>div>a {
+    padding: 6px 25px;
+}
+
+
+#top-menu>div>a {
+    padding: 6px 25px !important
+}
+#top-menu div {
+    font-size: 15px !important;
+}
+
+.tab-center{
+	width: 100%;
+	height: 45px;
+}
+#search_bar input[type="text"]{
+	padding: 5px 10px;
+
+}
+.search-icon-btn{
+	padding: 5px 6px;
+	border-radius: 0px;
+	background: #FF9E19 url("../images/search-icon.png") center center no-repeat;
+	border: 0px none;
+	text-indent: -9999em;
+	width: 40px;
+	background-size: 18px auto;
+	margin-left: -4px;
+}
+
+
+#mailchimpsf_widget-3{
+	margin-top: 20px;
+}
+#mailchimpsf_widget-3 h4{
+	font-weight: bold;
+}
+#mailchimpsf_widget-3 #mc_signup{
+	background: #F8F8F8;
+	padding: 10px;
+}
+
+.mc_signup_submit input{
+	display: block;
+	background: #FF9E19;
+	padding: 5px 10px;
+	border-radius: 4px;
+	font-family: inherit;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	max-width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+
+#healthy_recipes{
+	border-top: 0px solid #fe6c00;
+}
+#healthy_recipes.hovered > a,
+#recipe_finder.hovered > a{
+	color: #FFF !important;
+}
+
+#healthy_recipes.hovered > a, 
+#top-menu > div#healthy_recipes > a:hover{
+	color: #FFF !important;
+	background: #FE6C00 !important;
+}
+
+
+.our_mega_menu{
+	left: -116px;
+}
+
+#search_bar .search-bar-input{
+	max-width: 200px;
+}
+
+.navitop{
+	/*background: url("../images/border-bg.gif") left top repeat-x;*/
+}
+
+#top-menu > #tv > a,
+#top-menu > #health > a,
+#top-menu > #wellness > a{
+	padding: 6px 28px !important;
+}
+
+#top-menu > #fitness > a{
+	padding: 6px 30px !important;
+}
+
+@media screen and (max-width: 600px){
+	.icons-header a:first-child {
+	    width: auto !important;
+	}
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px){
+	#et-top-navigation{
+		margin-top: 0px;
+	}
+}
+
+/* .znewsletter Subscription Fixes*/
+.znewsletter div span {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 4px;
+    padding-left: 5px;
+    vertical-align: top;
+}
+
+.mc_merge_var {
+    margin-bottom: 1.0em;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/* .znewsletter Subscription Fixes*/
+
+#ic_live_tv{
+margin-left: 10px;
+}
+
+/*
+slideshow icon fixes
+*/
+#ic_slideshows .ic-camera{
+	display: block;
+	margin-top: 8px;
+	margin-right: 4px;
+	font-size: 22px;
+}
+
+/* slideshow camera fixes */
+.ic-slideshow-camera{
+			display: block;
+			width: 30px;
+			height: 20px;
+			background-image: url("../images/ic-camera.gif");
+			background-repeat: no-repeat;
+			background-position: center top;
+			margin-top: 8px !important;
+			margin-right: 5px !important;
+		}
+		.ic-slideshow-camera:hover{
+			background-position: center bottom;
+		}
+		.icons-header a:hover .ic-slideshow-camera{
+			background-position: center bottom;
+		}
+
+		@media screen and (max-width: 400px){
+			.tab-center,
+			.icons-header a:first-child{
+			margin-left: 0px !important;
+			}
+		}
+
+		@media screen and (max-width: 320px) {
+			.icons-header a span{
+				font-size: 10px !important;
+			}
+		}
+/* slideshow camera fixes */
+
+/* Full List Fixes */
+.show-full-list{
+background: #f8f8f8;
+    border: 1px solid #8f8f8f;
+    padding-right: 10px;
+    border-radius: 2px;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #51585a;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.svidplayer{
+	width: 98%;
+}
+
+/* Full List Fixes */
+
