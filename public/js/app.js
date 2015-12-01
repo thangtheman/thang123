@@ -4,7 +4,7 @@ angular.module('routerApp', ['routerRoutes', 'ngAnimate'])
 // this will be the controller for the ENTIRE site
 .controller('mainController', function() {
 
-    // create a bigMessage variable to display in our view
+    // create a bigMessage variable to display in our views
     this.bigMessage = 'A smooth sea never made a skilled sailor.';
 
 })

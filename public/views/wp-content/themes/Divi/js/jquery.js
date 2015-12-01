@@ -1578,7 +1578,7 @@
             while (b--) c = d[b], a[c] = f[c];
             return a.target || (a.target = f.srcElement || y), 3 === a.target.nodeType && (a.target = a.target.parentNode), a.metaKey = !!a.metaKey, g.filter ? g.filter(a, f) : a
         },
-        props: "altKey bubbles cancelable ctrlKey currentTarget eventPhase metaKey relatedTarget shiftKey target timeStamp view which".split(" "),
+        props: "altKey bubbles cancelable ctrlKey currentTarget eventPhase metaKey relatedTarget shiftKey target timeStamp views which".split(" "),
         fixHooks: {},
         keyHooks: {
             props: "char charCode key keyCode".split(" "),
